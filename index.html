@@ -1,47 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debug Me</title>
-    <!-- Missing stylesheet link -->
-    <link href="style.css" rel="stylesheet">
+    <!-- Intentional error: Misspelled stylesheet link -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Welcome to Debugging!</h1>
         <!-- Missing closing tag for <header> -->
     <nav>
-        <!-- Incorrect nesting of <a> inside <ul> -->
+        <!-- Intentional error: Incorrect nesting of elements -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     </header>
 
-    <!-- Missing alt attribute for image -->
-    <img src="example.jpg" alt="Example image">
+    <!-- Intentional error: Missing alt attribute for image -->
+    <img src="images/professor.jpg">
 
     <section>
-        <!-- Improper heading structure -->
+        <!-- Intentional error: Improper heading structure -->
         <h2>Subheading</h2>
-        <h3>Another Subheading</h3>
-
-        <!-- A list with formatting issues -->
+        <!-- Intentional error: A list with redundant tags -->
         <ul>
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
+            <li><span>Item One</span></li>
+            <li><span>Item Two</span></li>
+            <li><span>Item Three</span></li>
         </ul>
-
-        <p>This is a paragraph with some <a href="#">broken</a> formatting and a <strong>mistake</strong>.</p>
+        <h4>Another Subheading</h4>
+        <p>This is a paragraph with some <a href="#">broken</a> formatting.</p>
     </section>
 
     <footer>
         <p>Copyright 2025</p>
-        <!-- Invalid attribute -->
+        <!-- Intentional error: Invalid attribute -->
         <p>Contact us at <a href="mailto:contact@example.com">contact@example.com</a></p>
     </footer>
 </body>
