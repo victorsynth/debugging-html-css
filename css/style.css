@@ -3,16 +3,20 @@
 *:after {
 	box-sizing: inherit;
 }
+
 body {
 	background-color: #B2D732;
 }
+
 main {
 	color: #202020;
 }
+
 header {
 	background-color: #2E6C85;
 	width: 100%;
 }
+
 header img {
 	position: absolute;
 	top: 10px;
@@ -22,12 +26,14 @@ header img {
 	max-width: 15vw;
 	height: auto;
 }
+
 footer {
 	text-align: center;
 	background-color: #092834;
 	color: #B2;
 	clear: both;
 }
+
 footer h2 {
 	color: #B2D732
 }
@@ -41,15 +47,20 @@ h1 {
 	padding: 2vw;
 	margin: 0px;
 }
-h2, h4, h5 {
+
+h2,
+h4,
+h5 {
 	color: #C04402;
 	font-family: 'Architects Daughter', cursive;
 	margin-top: 1em;
 }
+
 h3 {
 	color: #2E6C85;
 	margin-top: 1em;
 }
+
 p {
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.35me;
@@ -62,9 +73,14 @@ ol {
 }
 
 .accent1 {
-	background-color: #092834;
+	background-color: #C04402;
+	color: whitesmoke;
+}
+
+.accent2 {
 	color: #B2D732;
 }
+
 .error {
 	color: #FE27122;
 }
@@ -72,10 +88,12 @@ ol {
 a {
 	color: #092834;
 }
+
 a:hover {
-	color: #2E6C85; 
+	color: #2E6C85;
 	text-decoration: all;
 }
+
 a:visited {
 	color: #FE2712;
 	text-decoration: none;

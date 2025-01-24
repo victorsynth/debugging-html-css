@@ -6,26 +6,34 @@ Welcome to the Debugging Assignment repository! This repository contains the res
 
 1. **index.html**
    - Contains intentional errors for students to identify and fix.
-   - Includes issues such as:
-     - Missing or misused HTML tags.
-     - Incorrect nesting of elements.
-     - Accessibility violations (e.g., missing `alt` attributes).
-     - Improper heading structure.
+   - Errors include issues with HTML syntax, structure, accessibility, and semantic correctness.
 
 2. **style.css**
-   - Contains various CSS errors for debugging.
-   - Includes issues such as:
-     - Syntax mistakes.
-     - Invalid property names or values.
-     - Incorrect or overly specific selectors.
-     - Misplaced or redundant properties.
+   - Includes intentional errors related to CSS syntax, selectors, and properties.
+
+3. **Expected Site Design**
+   - Includes a screenshot of the error-free page (`images/expected-site-design.png`) to serve as a reference for students.
+
+### File Structure
+```
+debugging-html-css/
+├── css/
+│   ├── style.css
+│   ├── layout.css
+├── images/
+│   ├── easter-bunny-150-profile.png
+│   ├── expected-site-design.png
+├── index.html
+├── README.md
+```
 
 ## Objective
 
 The goal of this assignment is to:
 - Develop debugging skills by identifying and correcting errors in HTML and CSS.
 - Improve familiarity with W3C standards and accessibility best practices.
-- Practice working with external stylesheets and semantic HTML.
+- Practice using debugging tools and validators to ensure standards-compliant code.
+- Learn to document errors and resolutions in a structured manner.
 
 ## Instructions
 
@@ -36,17 +44,23 @@ The goal of this assignment is to:
 
 2. Open the `index.html` and `style.css` files in your favorite text editor or IDE (e.g., Visual Studio Code).
 
-3. Identify and correct the errors in both files. Pay special attention to:
-   - HTML syntax and structure.
-   - CSS rules and selectors.
-   - Accessibility improvements.
+3. Identify the errors in both files. Use tools like:
+   - [W3C HTML Validator](https://validator.w3.org/)
+   - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+   - [Wave Accessibility Checker](https://wave.webaim.org/)
 
-4. Validate your corrected files:
-   - Use [W3C HTML Validator](https://validator.w3.org/) for the HTML.
-   - Use [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for the CSS.
-   - Use [Wave Accessibility Checker](https://wave.webaim.org/) to ensure accessibility compliance.
+4. Update the `<aside>` element list in the `index.html` file.
+   - Inside the `<aside>` list, describe each error and provide an explanation of the resolution.
 
-5. Submit your corrected files as instructed in the course.
+5. Resolve all identified errors in the `index.html` and `style.css` files by:
+   - Commenting out the original error code.
+   - Adding the corrected code directly below the commented-out error code.
+
+6. Once all errors are corrected:
+   - Commit your changes and push them to your own GitHub repository.
+   - Deploy the corrected project to GitHub Pages.
+
+7. Submit your GitHub repository link and GitHub Pages link as instructed in the course.
 
 ## Tools and Resources
 
