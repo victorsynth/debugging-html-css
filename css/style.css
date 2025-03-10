@@ -9,6 +9,7 @@ body {
 	background-color: #dcded5;
 	padding: none;
 	margin-left: 0rem;
+	margin-right: 0rem;
     
 
 }
@@ -27,6 +28,7 @@ header {
 ul{
 	margin-left: -5rem;
 	margin-top: -1rem;
+
 }
 	
 
@@ -118,8 +120,9 @@ p {
 }
 
 ol {
-	margin-left: 2em;
-	line-height: 1.5em;
+	margin-left: -2em;
+	line-height: 2em;
+	text-size-adjust: 1.5em;
 }
 
 .accent1 {
